@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #222;
+  color: #006464;
+}
+
+.main-wrapper {
+  width: 70vw;
+  min-height: 400vh;
+  margin: 0 auto;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 5vh;
+  border-bottom: 1px solid #006464;
+}
+
+.nav_main-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.nav_main-wrapper .menu-wrapper {
+  width: 70vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav_main-wrapper .menu-wrapper ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  list-style-type: none;
+}
+
+.nav_main-wrapper .menu-wrapper ul li {
+  padding-right: 50px;
+}
+
+.nav_main-wrapper .menu-wrapper ul li a {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.nav_main-wrapper .menu-wrapper ul li a:hover {
+  color: #006464;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.nav_main-wrapper .icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_main-wrapper .icon-wrapper i {
+  padding-left: 30px;
+  cursor: pointer;
+  color: #fff;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.nav_main-wrapper .icon-wrapper i:hover {
+  color: #006464;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.contact-button {
+  border-radius: 12px;
+  padding: 5px 30px;
+  background: #006464;
+  color: white !important;
+}
+
+.contact-button:hover {
+  color: black !important;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  height: 95vh;
+}
+
+main img {
+  position: absolute;
+}
+
+main img:nth-of-type(1) {
+  width: 699px;
+  top: 40%;
+  right: 0;
+  -webkit-transform: translate(40%, -30%);
+          transform: translate(40%, -30%);
+}
+
+main img:nth-of-type(2) {
+  top: 80%;
+  left: 100%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+main img:nth-of-type(3) {
+  top: 20%;
+  left: 30%;
+}
+
+main img:nth-of-type(4) {
+  top: 60%;
+  left: -15%;
+}
+
+main img:nth-of-type(5) {
+  top: 60%;
+  left: 50%;
+}
+
+main img:nth-of-type(6) {
+  top: 5%;
+  left: 90%;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.aboutme-wrapper {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
+  color: white;
+}
+
+.aboutme-wrapper h1 {
+  color: rgba(2, 2, 2, 0.5);
+  font-size: 10rem;
+  position: absolute;
+  top: -150px;
+  z-index: -1;
+}
+
+.aboutme-wrapper p {
+  font-size: 2rem;
+}
+
+.aboutme-wrapper p span {
+  color: #006464;
+}
+
+.aboutme-wrapper h2 {
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.aboutme-wrapper .button-wrapper button {
+  padding: 10px 40px;
+  margin-right: 50px;
+  border: 0px;
+  outline: none;
+  background: transparent;
+  border: 1px solid #006464;
+  color: white;
+  border-radius: 12px;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.aboutme-wrapper .button-wrapper button:hover {
+  background-color: #006464;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+/*# sourceMappingURL=styles.css.map */
