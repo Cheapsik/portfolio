@@ -86,36 +86,39 @@
         .skills {
             width: 50%;
             height: 100%;
-            .progress-wrapper{
+
+            .progress-wrapper {
                 width: 300px;
                 height: 30px;
                 border: 1px solid $main-color-theme;
                 border-radius: 10px;
                 margin: 5px 0px 5px 50px;
-            .progress {
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                background-color: darken($color: $main-color-theme, $amount: 10);
-                border-radius: 10px;
-                width: 0%;
-                transition: 1s ease-in-out;
 
-                span {
-                    padding: 5px 10px;
-                    font-size: .725rem;
+                .progress {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    background-color: darken($color: $main-color-theme, $amount: 10);
+                    border-radius: 10px;
+                    width: 0%;
+                    transition: 1s ease-in-out;
+
+                    span {
+                        padding: 5px 10px;
+                        font-size: .725rem;
+                    }
                 }
+
             }
-            
-        }
-        &::after {
-            content: '';
-            width: 1px;
-            height: 180px;
-            display: block;
-            background: rgba(255, 255, 255, 0.05);
-            transform: translateY(-200px)
-        }
+
+            &::after {
+                content: '';
+                width: 1px;
+                height: 180px;
+                display: block;
+                background: rgba(255, 255, 255, 0.05);
+                transform: translateY(-200px)
+            }
         }
 
         &::after {

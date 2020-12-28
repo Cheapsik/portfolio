@@ -1,5 +1,5 @@
 const aboutDiv = document.querySelector(".about-wrapper");
-const bars = document.querySelectorAll('.progress');
+const bars = document.querySelectorAll(".progress");
 
 const scrollFunction = function () {
     if (window.scrollY >= 200) {
@@ -14,9 +14,6 @@ const scrollFunction = function () {
           clearInterval(interval);
         });
       }, 500);
-
-
-
       aboutDiv.setAttribute("style", "transform: translateY(0px); opacity: 1;");
     } else {
       bars.forEach((bar) =>{

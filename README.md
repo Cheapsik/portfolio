@@ -1,1 +1,0 @@
-### Jak narazie działa zrobione tylko na rozdzielczość 1920x1080
