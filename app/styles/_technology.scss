@@ -1,0 +1,116 @@
+@import 'variables';
+
+
+.projects-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 70vh;
+    margin-top: 20%;
+
+    .buttons_projects-wrapper {
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .live-projects {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.technology {
+    width: 200px;
+    height: 50px;
+    padding: 10px 40px;
+    margin: 0 30px;
+    border: 0px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #006464;
+    color: white;
+    border-radius: 12px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $main-color-theme;
+        transition: .2s ease-in-out;
+    }
+}
+
+.container {
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+
+    img.image {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    div.overlay {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 100, 100, 0.5);
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+
+        .text {
+            display: flex;
+            white-space: nowrap;
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            overflow: hidden;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            button {
+                padding: 10px 40px;
+                margin: 0 10px;
+                border: 0px;
+                outline: none;
+                background: transparent;
+                border: 1px solid black;
+                color: white;
+                border-radius: 12px;
+                transition: .2s ease-in-out;
+                cursor: pointer;
+
+
+                &:hover {
+                    background-color: rgba(0, 100, 100, 0.7);
+                    transition: .2s ease-in-out;
+                }
+            }
+        }
+    }
+
+    &:hover .overlay {
+        height: 100%;
+    }
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
