@@ -12,14 +12,12 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #222;
     color: $main-color-theme;
-
 }
 
 .main-wrapper {
     width: 70vw;
-    min-height: 400vh;
+    min-height: 330vh;
     margin: 0 auto;
-
 }
 
 @import '_nav.scss';
@@ -29,3 +27,5 @@ body {
 @import '_skills.scss';
 
 @import '_technology.scss';
+
+@import '_footer.scss';
